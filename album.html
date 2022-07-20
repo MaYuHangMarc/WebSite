@@ -1,20 +1,23 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+<link rel="stylesheet" type="text/css" href="css/nav.css">
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/myStyle.css">
 <!--link的话是写在这-->
 <html>
 
 
 <head>
-    <title>馬的部落格</title>
+    <title>
+        welcome to Ma and Gon's Blog
+    </title>
 </head>
 
 <body>
-    <div style="text-align: center;background-image: url(image/album.jpg);height: 150px;">
-        <h1 class="title" style="text-align: center">&nbsp&nbsp/(ㄒoㄒ)/~~老<span
-                style="color:rgba(22, 144, 236, 0.817);">马</span>的狗窝&nbsp</h1>
+    <div class="div2">
+        <br>
+        <h1>&nbsp&nbsp/(ㄒoㄒ)/~~Ma & Gon&nbsp</h1>
     </div>
-
     <nav>
         <ul>
             <li><a href="index.html">老马部落格</a></li>
@@ -25,17 +28,11 @@
         </ul>
     </nav>
     <div style="color:rgb(44, 66, 121);">
-        <h1 class="title">相 册</h1>
+        <h1 class="title">ALBUM</h1>
     </div>
     <img src="image/game.jpg" alt="this a picture" style="width:auto" id="img1">
     <button id="button1">照片预览</button>
     <script>
-        /*var imgs = [<img src="image/game.jpg" alt="this a picture" style="width:auto" id="img1">,
-                    <img src="image/hanabi.jpg" alt="this a picture" style="width:auto" id="img2">,
-                    <img src="image/IMG_2353.jpg" alt="this a picture" style="width:auto" id="img3">,
-                    <img src="image/IMG_2354.jpg" alt="this a picture" style="width:auto" id="img4">,
-                    <img src="image/IMG_2354.jpg" alt="this a picture" style="width:auto" id="img4">,
-    ]*/
         document.getElementById("button1").onclick = function () {
             for (var index = 0; index < 650; index++) {
                 if (index % 50 == 0) {

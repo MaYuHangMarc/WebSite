@@ -1,0 +1,35 @@
+
+.div1 {
+    background-image: url(../image/6.jpg);
+}
+
+.div2 {
+    background-image: url(../image/head1.png) ;
+    width: 1500px;
+    height: 150px;
+    text-align: center;
+    margin: auto;
+}
+
+.div3 {
+    border: 5px solid rgb(195, 199, 203); 
+    width: 1000px;
+    height: auto;
+    /* padding: 15px; */
+    border-radius: 80px;
+    background-color:aliceblue;
+    line-height: 50px;
+}
+
+.div3::before {
+    content: '';
+    /*放上自己喜欢的图片*/
+    background-color: lightyellow;
+    opacity: 0.2;
+    background-size: cover;
+    width: 1000px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+}

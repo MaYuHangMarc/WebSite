@@ -1,0 +1,275 @@
+.page1 {
+    width: 1200px auto;
+    height: 970px;
+    background-image: url(../image/back1.jpg);
+    background-size: cover;
+    margin-top: -35px;
+    margin-left: -10px;
+    margin-right: -5px;
+}
+
+.daohang {
+    /*background: url(find.png) no-repeat;*/
+    width: 600px;
+    height: 150px;
+    display: table-cell;
+    vertical-align: bottom;
+    position: absolute;
+    top: 400px;
+    left: 615px;
+    z-index: 1000;
+}
+
+.wel {
+    font-style: italic;
+    color: coral;
+    font-size: 30px;
+    text-align: center;
+}
+
+.fight {
+    color: darkslategray;
+    font-size: 20px;
+    font-family: "microsoft yahei";
+    margin-top: -10px;
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    font-family: "microsoft yahei";
+    padding: 300px;
+}
+
+.jump {
+    position: absolute;
+    top: 43px;
+    left: 165px;
+    z-index: 1000;
+    text-decoration: none;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    color: dimgray;
+}
+
+.jump2 {
+    position: absolute;
+    top: 33px;
+    left: 265px;
+    z-index: 1000;
+    text-decoration: none;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    color: darkslategray
+}
+
+.jump3 {
+    position: absolute;
+    top: 43px;
+    left: 370px;
+    z-index: 1000;
+    text-decoration: none;
+    font-family: "microsoft yahei";
+    font-size: 20px;
+    color: dimgray;
+}
+
+a.jump:hover {
+    color: blueviolet;
+    text-decoration: none;
+    background: lightblue;
+}
+
+a.jump2:hover {
+    color: blueviolet;
+    text-decoration: none;
+    background: yellowgreen;
+}
+
+a.jump3:hover {
+    color: blueviolet;
+    text-decoration: none;
+    background: lightblue;
+}
+
+.page2 {
+    width: 1200px auto;
+    height: 2400px;
+    /*background: url(background_boat.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+.pic {
+    width: 1300px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 50px;
+
+}
+
+@font-face {
+    font-family: 'W5Font';
+    src: url('fonts/华康娃娃体W5.TTF'),
+        url('fonts/华康娃娃体W5.TTF');
+    /* IE9 */
+}
+
+.p2text {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 310px;
+    margin-top: -80px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.p2text2 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 630px;
+    margin-top: -81px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.p2text3 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 920px;
+    margin-top: -82px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.p2text4 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 1230px;
+    margin-top: -82px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.pic2 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 80px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.pa2text1 {
+    width: 270px;
+    height: 60px;
+    margin-left: 1300px;
+    margin-top: 100px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+    color: slategray;
+}
+
+.pic3 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 800px;
+    margin-top: 300px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.pa2text2 {
+    width: 270px;
+    height: 60px;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+    color: dimgray;
+}
+
+.pic4 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 300px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.pa2text3 {
+    width: 270px;
+    height: 60px;
+    margin-left: 1300px;
+    margin-top: 80px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+    color: slategray;
+}
+
+.pic5 {
+    width: 270px;
+    height: 60px;
+    text-align: center;
+    margin-left: 850px;
+    margin-top: 300px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.pa2text4 {
+    width: 270px;
+    height: 60px;
+    margin-left: 350px;
+    margin-top: 100px;
+    font-family: W5Font;
+    font-size: 23px;
+    font-weight: 600;
+    color: dimgray;
+}
+
+.next {
+    margin-left: -20px;
+    margin-top: 450px;
+}
+
+.ok {
+    width: 270px;
+    height: 60px;
+    margin-left: 830px;
+    margin-top: 300px;
+    font-family: W5Font;
+    font-size: 30px;
+    font-weight: 600;
+    color: dimgray;
+}
+
+#datetime {
+    color: black;
+    margin-top: -550px;
+    margin-left: -600px;
+    font-family: W5Font;
+    font-size: 30px;
+    border: #FFFFFF 2px dashed;
+    width: 300px;
+    height: 60px;
+    text-align: center center;
+}
